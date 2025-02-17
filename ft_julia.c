@@ -6,7 +6,7 @@
 /*   By: mhaddou <mhaddou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 09:44:04 by mhaddou           #+#    #+#             */
-/*   Updated: 2025/02/16 21:32:17 by mhaddou          ###   ########.fr       */
+/*   Updated: 2025/02/17 10:36:20 by mhaddou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,8 @@ int ft_julia(char *par1 , char *par2)
     }
     double x = ft_atof(par1);
     double y = ft_atof(par2);
-    printf("%lf\n",x);
+    printf("%lf\n",x); //to ignore  unused
     printf("%lf\n",y);
+    pre_mlx("julia");
     return (0);
 }

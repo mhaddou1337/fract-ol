@@ -6,7 +6,7 @@
 /*   By: mhaddou <mhaddou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 08:36:50 by mhaddou           #+#    #+#             */
-/*   Updated: 2025/02/16 23:34:39 by mhaddou          ###   ########.fr       */
+/*   Updated: 2025/02/17 11:42:19 by mhaddou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,4 +38,12 @@ int ft_atoi(const char *nptr);
 int pre_mlx(char *fractal_name);
 char	*ft_strjoin(char *s1, char *s2);
 // fractal functions
+
+
+typedef struct windo_info
+{
+    void *mlx;
+    void *mlx_win;
+} windo_info;
+
 #endif
